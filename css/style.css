@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,800;1,900&display=swap');
+
+*{
+  margin :0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+
+
+
+.section{
+  position: relative;
+  min-height: 100%;
+  width: 100%;  
+  background-color: white;
+
+}
+
+.navbar{
+  background-color:rgb(86, 6, 139);
+  position: relative;
+  z-index: 1000;
+}
+
+.logo{
+  padding-left: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.logo span{
+  color: #ed137d;
+}
+.nav-link{
+  position: relative;
+  margin: 5px;
+  padding: 0 5px 0 5px 0;
+  font-size: 15px;
+  border-radius: 28px;
+  background-color: rgb(86, 6, 139);
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.nav-link:hover{
+  color :rgb(0, 0, 0);
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 28px;
+}
+
+.banner{
+  position: relative;
+  width: inherit;
+}
+
+
+.banner .title{
+  margin: 0;
+  line-height: 100%;
+  padding-top: 50px;
+  font-size: 80px;  
+  font-weight: 600;
+  color: #2aa80b;
+}
+
+.banner .subtitle{
+  margin: 0;
+  line-height: 90px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.banner .subtitle span{
+  color: #ed137d;
+}
+
+.table1{
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+
+.contentA{
+  padding-left:50px;
+  padding-top: 50px;
+}
+
+.contentA .content{
+  font-family: 'Public Sans', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contentA button{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 20px;
+  font-weight:600;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #2aa80b;
+  padding: 0;
+  border: none;
+  transition: .5s;
+}
+
+.contentA button:hover{
+  background-color: rgb(86, 6, 139);
+}
+
+.contentB{
+  align-items: center;
+}
+
+.contentB img{
+  position: static;
+  top: 100px;
+  box-sizing: content-box;
+  margin: 0;
+  width:1200px;
+  height:700px;
+}
+
+
+
